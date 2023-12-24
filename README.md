@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://saidmurod.uz/" target="_blank">saidmurod.uz</a>
+  Portfolio Website - v1.0<br/>
+  <a href="aw-io.vercel.app" target="_blank">aw-io.vercel.app</a>
 </h2>
 <div align="center">
 
@@ -14,17 +14,16 @@
 
 
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Saidmurod](https://github.com/saidmurodjon/saidmuroduz). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [anwar wahab]([https://github.com/saidmurodjon/saidmuroduz](https://github.com/anw6rwah6b)). Thanks!
 
 ## Built With
 
-My personal portfolio <a href="http://saidmurod.uz/" target="_blank">saidmurod.uz</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="aw-io.vercel.app" target="_blank">aw-io.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
 - VsCode
 - Vercel
