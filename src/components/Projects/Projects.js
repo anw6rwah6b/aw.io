@@ -2,12 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import todo from "../../Assets/Projects/todo.png";
+import qr from "../../Assets/Projects/qrcode_scanner.png";
+import neftlux from "../../Assets/Projects/neftlux.png";
+import robo from "../../Assets/Projects/robofriends.png";
+import quiz from "../../Assets/Projects/quiz_app.png";
+import osk from "../../Assets/Projects/OSK_TheBrick.png";
+import spfm from "../../Assets/Projects/SPFM.png";
+import sunway from "../../Assets/Projects/Sunway_SPFM.png";
+import dashboard from "../../Assets/Projects/socialmedia_dashboard.png";
+import movie from "../../Assets/Projects/movie_site.png";
 
 function Projects() {
   return (
@@ -23,68 +27,107 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={robo}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="RoboFriends 🤖"
+              description="A responsive single page web application,allowing users to filter the Robots results data via the search form. Created with React App, connecting to a mock API from JSON Placeholder via a Fetch statement."
+              ghLink="https://github.com/anw6rwah6b/robotfriends"
+              demoLink="https://robotfriends-eight.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={movie}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="movie-site 🎞️"
+              description="Page build with Next.js and Tailwind Css which takes the content from third party API and render movies, using Next.js."
+              ghLink="https://github.com/anw6rwah6b/movie_site"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={neftlux}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Netflux 📺"
+              description="Neftlux is a simple landing page project of a neflix web page. using HTML, CSS and JavaScript "
+              ghLink="https://github.com/anw6rwah6b/netflux"
+              demoLink="https://anw6rwah6b.github.io/netflux/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={todo}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="To do list 📝"
+              description="A dynamic and aesthetic To-Do List Website built with HTML, CSS, Vanilla JavaScript."
+              ghLink="https://github.com/anw6rwah6b/-js-todo-2023"
+              demoLink="https://anw6rwah6b.github.io/-js-todo-2023/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={quiz}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Quiz app 🧩"
+              description="Quiz. This application this application will be able to load questions from a 3rd party API, track and display high scores."
+              ghLink="https://github.com/anw6rwah6b/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript"
+              demoLink="https://build-a-quiz-app-with-html-css-and-java-script-six.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={qr}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="QR Code Generator"
+              description="Simple app to generate and download a QR code that can be used to share a link."
+              ghLink="https://github.com/anw6rwah6b/-qrcode-js"
+              demoLink="https://anw6rwah6b.github.io/-qrcode-js/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dashboard}
+              isBlog={false}
+              title="Social media dashboard with theme switcher"
+              description="A social media dashboard with theme switcher that change, using gulp, html, and Sass"
+              ghLink="https://github.com/anw6rwah6b/fem-dklt-toggle"
+              demoLink="https://fem-dklt-toggle-pearl.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sunway}
+              isBlog={true}
+              title="Sunway SPFM"
+              description="Sunway SPFM is a website and app management in collaboration with IMTTECH SDN BHD."
+              ghLink="https://sunway.imttech.co/home/welcome/index.html"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spfm}
+              isBlog={true}
+              title="SPFM Project"
+              description="SPFM is a sunway landing page for there client to see what properties that there offers in gratitude of IMTTECH SDN BHD."
+              ghLink="https://spfm.com.my/home/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={osk}
+              isBlog={true}
+              title="OSK The Brick Project"
+              description="The Brick OSK is a landing page that offers their clients to see what Properties are on offer."
+              ghLink="https://www.thebrick.com.my/home/"
             />
           </Col>
         </Row>
