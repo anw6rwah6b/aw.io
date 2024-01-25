@@ -12,6 +12,7 @@ import spfm from "../../Assets/Projects/SPFM.png";
 import sunway from "../../Assets/Projects/Sunway_SPFM.png";
 import dashboard from "../../Assets/Projects/socialmedia_dashboard.png";
 import movie from "../../Assets/Projects/movie_site.png";
+import ava from "../../Assets/Projects/avaland.png";
 
 function Projects() {
   return (
@@ -128,6 +129,16 @@ function Projects() {
               title="OSK The Brick Project"
               description="The Brick OSK is a landing page that offers their clients to see what Properties are on offer."
               ghLink="https://www.thebrick.com.my/home/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ava}
+              isBlog={true}
+              title="Avaland(formerly MCT BHD) Project"
+              description="Avaland Project is a landing page that offers their clients to see what Properties are on offer."
+              ghLink="https://mycommunity.my/www/"
             />
           </Col>
         </Row>
